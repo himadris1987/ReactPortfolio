@@ -7,7 +7,7 @@ import linkedin from "../../Assets/linkedin.png"
 function Connect(props) {
 
     const githublink = "https://github.com/himadris1987";
-    const linkedinlink = "www.linkedin.com/in/himadri-sinha-a1532257";
+    const linkedinlink = "https://www.linkedin.com/in/himadri-sinha-a1532257";
 
     return (
         <div className="connect">
