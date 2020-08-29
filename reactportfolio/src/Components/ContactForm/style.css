@@ -1,0 +1,15 @@
+input[type=submit] {
+    padding: 5px 30px;
+    margin: 0px 20px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+}
+
+input[type=reset] {
+    padding: 5px 30px;
+    margin: 0px 20px;
+    cursor: pointer;
+    position: relative;
+    float: right;
+}
