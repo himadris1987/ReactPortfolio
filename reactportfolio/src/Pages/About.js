@@ -6,7 +6,6 @@ import Picture from "../Components/Picture";
 function About (){
     return(
         <Container>
-            <h1 className="h1about">About Me</h1>
             <Section>
             <Picture/>
             </Section>

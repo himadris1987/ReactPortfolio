@@ -1,10 +1,14 @@
 import React from "react";
+import Card from 'react-bootstrap/Card'
+
 import "./style.css";
 
 
 function ContactForm(props) {
 
     return (
+    <Card id = "card">
+    <Card.Header id="header">Contact Me</Card.Header>
         <form id="contactmeform" action="mailto:himadris@gmail.com" method="post" enctype="text/plain">
             <div className="form-group">
                 <label for="name">Name</label>
@@ -21,6 +25,7 @@ function ContactForm(props) {
             <input className="btn btn-outline-dark" type="submit" name="sumbit" />
             <input className="btn btn-outline-dark" type="reset" name="reset" />
         </form>
+        </Card>
     );
 }
 

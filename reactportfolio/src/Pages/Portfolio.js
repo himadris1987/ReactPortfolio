@@ -6,7 +6,6 @@ import Projects from "../Components/Projects"
 function Portfolio() {
     return (
         <Container>
-            <h1 className="h1Portfolio">Portfolio</h1>
             <Section>
                 <Projects/>
             </Section>

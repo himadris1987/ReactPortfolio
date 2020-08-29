@@ -1,5 +1,6 @@
 import React from "react";
-import Media from 'react-bootstrap/Media'
+import Media from 'react-bootstrap/Media';
+import Card from "react-bootstrap/Card";
 import Button from 'react-bootstrap/Button';
 import Buy from "../../Assets/Buy.png";
 import Final from "../../Assets/Final.png";
@@ -7,6 +8,8 @@ import "./style.css";
 
 function Projects(props) {
     return (
+    <Card id = "card">
+        <Card.Header id="header">Projects</Card.Header>
         <ul className="list-unstyled">
             <Media as="li">
                 <img
@@ -68,6 +71,7 @@ function Projects(props) {
                 </Media.Body>
             </Media>
         </ul>
+        </Card>
     )
 };
 

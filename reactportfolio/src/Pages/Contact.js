@@ -8,7 +8,6 @@ import Sidebar from "../Components/Sidebar";
 function Contact (){
     return (
         <Container>
-            <h1 className="h1Contact">Contact Me</h1>
             <Section> 
                 <ContactForm/>
             </Section>

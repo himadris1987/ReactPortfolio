@@ -4,6 +4,15 @@ img {
     
 }    /* height: 25%; */
 
+#card {
+    background-color: lightblue;
+}
+
+#header {
+    border-color: lightblue;
+}
+
+
 
 @media screen and (max-width: 980px) {
     #media {

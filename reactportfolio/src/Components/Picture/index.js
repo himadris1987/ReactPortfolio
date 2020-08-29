@@ -1,11 +1,15 @@
 import React from "react";
 import Media from 'react-bootstrap/Media'
+import Card from 'react-bootstrap/Card'
 import "./style.css";
 import profile from "../../Assets/profile.jpg"
 
 
+
 function Picture() {
     return (
+<Card id ="card">
+<Card.Header id ="header">About Me</Card.Header>
 
         <Media>
             <img
@@ -16,7 +20,7 @@ function Picture() {
                 alt="profile"
             />
             <Media.Body>
-                <h5>Media Heading</h5>
+                <h5>My Biography</h5>
                 <p>
                     My name is Himadri Narayan Sinha. I have a Bacehlor's of Science in Environmental Science and Policy from St. Edward's University
                     in Austin, TX. However, I have always been interested in full stack development for web applications and software, so I decided to attend
@@ -30,6 +34,7 @@ function Picture() {
           </p>
             </Media.Body>
         </Media>
+        </Card>
 
     );
 }
