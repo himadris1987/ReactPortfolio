@@ -90,5 +90,8 @@ At a minimum, your portfolio should include the following:
 
 Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
 
+Edit 11/14/2020
+For updated React Portfolio use : https://quiet-temple-33463.herokuapp.com/
+
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
